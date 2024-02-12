@@ -94,6 +94,7 @@ public class Client {
 
     @Override
     public String toString() {
-        return "\nNome: " + name + "\nCpf: " + cpf;
+        return "\nNome: " + this.getName() +
+                "\nCPF: " + this.getCpf();
     }
 }
